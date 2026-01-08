@@ -90,8 +90,8 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center gap-2">
-                        <img src={logoImg} alt="MasjidHub Logo" className="w-10 h-auto object-contain" />
-                        <span className="font-bold text-xl text-primary tracking-tight">MasjidHub</span>
+                        <img src={logoImg} alt="MasjidHub Logo" className="w-48 h-48 object-contain" />
+                        {/* <span className="font-bold text-xl text-primary tracking-tight">MasjidHub</span> */}
                     </div>
 
                     {/* Desktop Menu */}
