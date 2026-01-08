@@ -10,8 +10,8 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className="col-span-2 lg:col-span-2">
                         <div className="flex items-center gap-2 mb-6">
-                            <img src={logoImg} alt="MasjidHub Logo" className="w-6 h-6 object-contain" />
-                            <span className="font-bold text-lg text-primary">MasjidHub</span>
+                            <img src={logoImg} alt="MasjidHub Logo" className="w-48 h-48 object-contain" />
+                            {/* <span className="font-bold text-lg text-primary">MasjidHub</span> */}
                         </div>
                         <p className="text-sm text-slate-400 mb-6">
                             © 2026 MasjidHub
